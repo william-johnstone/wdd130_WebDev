@@ -1,0 +1,47 @@
+body{
+    background-color: pink;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+h1:hover {
+    color: black;
+}
+ol {
+    color: black;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+main p, p3 {
+    font-size: 30px;
+    width: 20%;
+    margin: 0 auto;
+    display: inline-block;
+}
+p2{
+    margin: 20%;
+}
+
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
+    width: 20%;
+    align-content: center;
+    color: black;
+}
