@@ -1,0 +1,13 @@
+I would like to create a Portfolio Website as my project proposal.  I want to have the website be a visual representation of what a resume might look like.  I would use this as a potential link on a resume or cover letter for job applications.
+Proposal: Portfolio Website
+Home Page - Critical Info about me
+Skills Page - job related skills Page
+Hobbies Page - page showing interests/hobbies/family
+
+Needs:
+1. Text on each page
+2. At least one image related to content/text
+3. links between pages
+4. laid out according to wireframe
+5. visually appealing and readable
+
