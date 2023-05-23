@@ -1,0 +1,18 @@
+/* (A) CONTAINER */
+#grid-col {
+    display: grid;
+    /* (A2) SPECIFY COLUMNS */
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+   
+  /* (B) GRID CELLS */
+  div.cell {
+    background: LightBlue;
+    border: 1px solid Blue;
+    padding: 10px;
+  }
+   
+  /* (C) RESPONSIVE - 1 COLUMN ON SMALL SCREENS */
+  @media screen and (max-width: 640px) {
+    #grid-col { grid-template-columns: 100%; }
+  }
