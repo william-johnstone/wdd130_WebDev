@@ -3,7 +3,6 @@
 nav {
     display: flex;
     justify-content: space-around;
-    grid-column: 1;
 }
 
 nav a{
@@ -20,7 +19,7 @@ nav a:hover {
 body{
     background-color:#4059adff;
     font-family: "Abhaya Libre family", Helvetica, sans-serif;
-    display:flex;
+    display:grid;
     justify-content:center;
     align-items:center;
     /*height:100vh;*/
@@ -128,4 +127,9 @@ button{
     background:#4059adff;
     color:#6b9ac4ff;
     font-weight:600;
+}
+
+.raft-fam{
+    grid-column: 1;
+    grid-row: 3;
 }
