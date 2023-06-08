@@ -38,6 +38,7 @@ body{
     margin: 200px;
     grid-column: 5 / 7;
     grid-row: 2 / 3;
+    width: 100%;
 }
 .card-img{
     border: 10px solid #6b9ac4ff;
@@ -180,11 +181,13 @@ nav a:hover {
     margin: 200px;
     grid-column: 8 / 10;
     grid-row: 2 / 3;
+    width: 100%;
 }
 .rivers-card {
     margin: 200px;
     grid-column: 2 / 4;
     grid-row: 2 / 3;
+    width: 100%;
 }
 /*responsive display */
 @media screen and (max-width: 900px) {
