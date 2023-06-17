@@ -198,10 +198,13 @@ nav a:hover {
 book now stuff
 */
 .book-title{
-    color: #4059adff;
+    /*color: #4059adff;
+    */
+    color: #97d8c4ff;
     font-family: "Playfair Display", sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    text-align: center;
 }
 #book {
     display: grid;
@@ -215,9 +218,9 @@ book now stuff
     z-index: -1;
 }
 #book-msg{
-    grid-column: 2/3;
+    grid-column: 1;
     grid-row: 1/2;
-    margin-top: 10px;
+    margin-top: 100px;
     max-width: 1200px;
 }
 .book-grid {
