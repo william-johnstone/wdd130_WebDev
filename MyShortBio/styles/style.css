@@ -68,7 +68,7 @@ h2 {
 .home-grid{
     display: grid;
     grid-template-columns: repeat(1fr, 5);
-    grid-template-rows: 8;
+    grid-template-rows: 11;
 
 }
 
@@ -221,4 +221,51 @@ footer .social img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+/*this is the about me specific page items */
+#family {
+    margin: 5px;
+    grid-column: 1 / 6;
+    grid-row: 1 / 3;
+    width: auto;
+    text-align: center;
+}
+
+.family-pic1 {
+    border: 10px #8499b1ff;
+    float: left;
+    padding-right: 5px;
+}
+
+.family-pic2 {
+    border: 10px #8499b1ff;
+    float: left;
+    padding-right: 5px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+}
+
+.family-pic3 {
+    border: 10px #8499b1ff;
+    float: left;
+    padding-right: 5px;
+    grid-column: 3 / 4;
+    grid-row: 5 / 7;
+}
+
+.family-pic4 {
+    border: 10px #8499b1ff;
+    float: left;
+    padding-right: 5px;
+    grid-column: 4 / 5;
+    grid-row: 7 / 9;
+}
+
+.family-pic5 {
+    border: 10px #8499b1ff;
+    float: left;
+    padding-right: 5px;
+    grid-column: 5 / 6;
+    grid-row: 9 / 11;
 }
