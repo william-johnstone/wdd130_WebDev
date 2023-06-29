@@ -213,7 +213,7 @@ footer .social img {
     width: 50%;
 }
 
-/*this is the about me specific page items */
+/*****************this is the about me specific page items*****************/
 .about-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
